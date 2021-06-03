@@ -1,2 +1,1 @@
-# Bookingsite
-Created with CodeSandbox
+# NextJS with firebase auth
