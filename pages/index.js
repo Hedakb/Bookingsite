@@ -7,5 +7,5 @@ export default function Home() {
 
 
 # Git pull 
-# git commit -m "la til kode som ikke virker"
+# git commit -m "la til kode som ikke virker 2"
 # git push
