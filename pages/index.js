@@ -20,7 +20,7 @@ export default function Home() {
     const { Title, Beskrivelse, Tidspunkt } = event.target.elements;
     firebase
       .firestore()
-      .collection("Chartertur")
+      .collection("Review")
       .add({
         Title: Title.value,
         Beskrivelse: Beskrivelse.value,
@@ -43,7 +43,7 @@ export default function Home() {
     >
       <div>
         <Button onClick={() => setShow(!show)} variant="dark" size="lg">
-          Legg til gjøremål
+          Add review
         </Button>
         {show ? (
           <Card style={{ width: "18rem" }} bg="success">
@@ -63,7 +63,7 @@ export default function Home() {
                 <Card.Text>
                   <Form.Control
                     name="Tidspunkt"
-                    placeholder="Tidspunkt, eks. 01.01.2000"
+                    placeholder="Legg inn terningkast"
                   />
                 </Card.Text>
                 <Button type="submit" variant="dark">
@@ -73,7 +73,6 @@ export default function Home() {
             </Form>
           </Card>
         ) : null}
-        <Image src="TIP100\minos3.jpg" fluid />
       </div>
     </div>
   );
