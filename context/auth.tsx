@@ -102,7 +102,8 @@ function useFirebaseAuth(): Context {
         if (redirect) {
           Router.push(redirect);
         }
-      });
+      })
+      .catch((err) => console.log(err.message));
   };
 
   const signInWithEmailAndPassword = ({
