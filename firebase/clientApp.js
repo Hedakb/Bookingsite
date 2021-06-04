@@ -6,12 +6,12 @@ import "firebase/analytics"; // If you need it
 import "firebase/performance"; // If you need it
 
 const clientCredentials = {
-  apiKey: "AIzaSyCRZZsIwvTxq3henbgrd3uaveL9f2KvCGY",
-  authDomain: "booking-6c57c.firebaseapp.com",
-  projectId: "booking-6c57c",
-  storageBucket: "booking-6c57c.appspot.com",
-  messagingSenderId: "741037298238",
-  appId: "1:741037298238:web:e7364aa39971e4c238f76f"
+  apiKey: "AIzaSyA7L7EIGTqJmRYXOZraA0xpPPxeJijeUT8",
+  authDomain: "chartervirksomhet.firebaseapp.com",
+  projectId: "chartervirksomhet",
+  storageBucket: "chartervirksomhet.appspot.com",
+  messagingSenderId: "477953486977",
+  appId: "1:477953486977:web:84489f0bac216c1c145d80"
 };
 
 if (!firebase.apps.length) {
